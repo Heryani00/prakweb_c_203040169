@@ -17,13 +17,15 @@ $buku = query("SELECT * FROM buku");
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="style/css" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
   <title>Daftar Buku Heryani</title>
 
 </head>
 
-<body class="bg-transparent">
+<body>
   <div class="container ">
-    <div class="card mt-5 bg-info card text-light">
+    <div class="card mt-5 bg-info card text-light" style="box-shadow: 0 5px 20px rgba(0,0,0,0.5);">
       <div class="card-body text-light">
         <h1 class="display-1" style="text-align :center; font-family:fantasy">Daftar Novel Aja</h1>
         <div class="add mb-3 btn btn-secondary rounded-pill" style="width:200px" ;>
